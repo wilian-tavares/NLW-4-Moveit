@@ -2,16 +2,16 @@ import Head from 'next/head';
 import { GetServerSideProps } from 'next';
 
 
-import { CompletedChallenges } from "../components/CompletedChallenges";
-import { Countdown } from "../components/Countdown";
-import { Experiencebar } from "../components/Experiencebar";
+import { CompletedChallenges } from "../Components/CompletedChallenges";
+import { Countdown } from "../Components/Countdown";
+import { Experiencebar } from "../Components/Experiencebar";
 
 
 import styles from '../styles/pages/Home.module.css'; //Home maiusculo
-import { ChallengeBox } from "../components/ChallengeBox";
-import { CountdownProvider } from '../contexts/CountdownsContext';
-import { ChallengesProvider } from '../contexts/ChallengesContext';
-import { Profile } from '../components/profile';
+import { ChallengeBox } from "../Components/ChallengeBox";
+import { CountdownProvider } from '../Contexts/CountdownsContext';
+import { ChallengesProvider } from '../Contexts/ChallengesContext';
+import { Profile } from '../Components/Profile';
 
 
 interface HomeProps {
