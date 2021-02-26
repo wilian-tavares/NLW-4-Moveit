@@ -5,12 +5,13 @@ import { GetServerSideProps } from 'next';
 import { CompletedChallenges } from "../components/CompletedChallenges";
 import { Countdown } from "../components/Countdown";
 import { Experiencebar } from "../components/Experiencebar";
-import { Profile } from '../components/profile';
 
-import styles from '../styles/pages/home.module.css'; //Home maiusculo
+
+import styles from '../styles/pages/Home.module.css'; //Home maiusculo
 import { ChallengeBox } from "../components/ChallengeBox";
 import { CountdownProvider } from '../contexts/CountdownsContext';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
+import { Profile } from '../components/profile';
 
 
 interface HomeProps {
