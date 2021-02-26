@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 import '../styles/global.css';
 
-import { ChallengesContext, ChallengesProvider } from '../contexts/ChallengesContext'
+import { ChallengesContext, ChallengesProvider } from '../Contexts/ChallengesContext'
 
 
 
