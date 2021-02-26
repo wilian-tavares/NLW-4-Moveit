@@ -7,7 +7,7 @@ import { Countdown } from "../components/Countdown";
 import { Experiencebar } from "../components/Experiencebar";
 import { Profile } from '../components/profile';
 
-import styles from '../styles/pages/home.module.css';
+import styles from '../styles/pages/home.module.css'; //Home maiusculo
 import { ChallengeBox } from "../components/ChallengeBox";
 import { CountdownProvider } from '../contexts/CountdownsContext';
 import { ChallengesProvider } from '../contexts/ChallengesContext';
