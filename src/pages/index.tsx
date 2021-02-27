@@ -4,7 +4,7 @@ import { GetServerSideProps } from 'next';
 
 import { CompletedChallenges } from "../Components/CompletedChallenges";
 import { Countdown } from "../Components/Countdown";
-import { Experiencebar } from "../Components/Experiencebar";
+
 
 
 import styles from '../Styles/pages/Home.module.css';
@@ -12,6 +12,8 @@ import { ChallengeBox } from "../Components/ChallengeBox";
 import { CountdownProvider } from '../Contexts/CountdownsContext';
 import { ChallengesProvider } from '../Contexts/ChallengesContext';
 import { Profile } from '../Components/Profile';
+import { ExperienceBar } from '../Components/Experiencebar';
+
 
 
 interface HomeProps {
@@ -34,7 +36,7 @@ export default function Home(props: HomeProps) {
           <title>Início | move.it</title>
         </Head>
 
-        <Experiencebar />
+        <ExperienceBar />
 
         <CountdownProvider>
           <section>
