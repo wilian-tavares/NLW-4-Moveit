@@ -1,7 +1,7 @@
 import { useContext } from 'react';
 import { ChallengesContext } from '../Contexts/ChallengesContext';
 
-import styles from '../styles/Components/Profile.module.css';
+import styles from '../Styles/Components/Profile.module.css';
 
 export function Profile() {
     const { level } = useContext(ChallengesContext);
