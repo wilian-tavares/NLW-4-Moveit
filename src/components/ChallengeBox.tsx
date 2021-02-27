@@ -2,7 +2,7 @@ import { useContext } from 'react';
 import { ChallengesContext } from '../Contexts/ChallengesContext';
 import { CountdownContext } from '../Contexts/CountdownsContext';
 
-import styles from '../Styles/Components/ChallengeBox.module.css';
+import Styles from '../Styles/Components/ChallengeBox.module.css';
 
 
 export function ChallengeBox() {
@@ -20,9 +20,9 @@ export function ChallengeBox() {
     }
 
     return (
-        <div className={styles.ChallengeBoxContainer}>
+        <div className={Styles.ChallengeBoxContainer}>
             { activeChallenge ? (
-                <div className={styles.challengeActive}>
+                <div className={Styles.challengeActive}>
                     <header>Ganhe {activeChallenge.amount} xp</header>
 
                     <main>
@@ -33,14 +33,14 @@ export function ChallengeBox() {
 
                     <footer>
                         <button type="button"
-                            className={styles.challengeFailedButton}
+                            className={Styles.challengeFailedButton}
                             onClick={handleChallengeFailed}
                         >
                             Falhei
                         </button>
 
                         <button type="button"
-                            className={styles.challengeSucceedeButton}
+                            className={Styles.challengeSucceedeButton}
                             onClick={handleChallengeSucceeded}
                         >
                             Completei
@@ -48,7 +48,7 @@ export function ChallengeBox() {
                     </footer>
                 </div>
             ) : (
-                    <div className={styles.challengeNotActive}>
+                    <div className={Styles.challengeNotActive}>
                         <strong>Finalize um ciclo para receber um desafio</strong>
                         <p>
                             <img src="icons/level-up.svg" alt="Level up" />

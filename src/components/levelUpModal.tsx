@@ -1,13 +1,13 @@
 import { useContext } from 'react';
 import { ChallengesContext } from '../Contexts/ChallengesContext';
-import styles from '../Styles/Components/LevelUpModal.module.css';
+import Styles from '../Styles/Components/LevelUpModal.module.css';
 
 export function LevelUpModal() {
     const { level, closeLevelUpModal } = useContext(ChallengesContext)
 
     return (
-        <div className={styles.overlay}>
-            <div className={styles.container}>
+        <div className={Styles.overlay}>
+            <div className={Styles.container}>
                 <header>{level}</header>
 
                 <strong>Parabéns</strong>
