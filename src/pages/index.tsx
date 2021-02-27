@@ -12,7 +12,8 @@ import { ChallengeBox } from "../Components/ChallengeBox";
 import { CountdownProvider } from '../Contexts/CountdownsContext';
 import { ChallengesProvider } from '../Contexts/ChallengesContext';
 import { Profile } from '../Components/Profile';
-import { ExperienceBar } from '../Components/Experiencebar';
+import { ExperienceBar } from '../Components/ExperienceBar';
+
 
 
 
