@@ -1,6 +1,10 @@
 import Head from 'next/head';
 import { GetServerSideProps } from 'next';
-
+/*
+  QUANDO FOR FAZER O DEPLOY PELO vercel:
+  vercel --prod
+  desta forma o deploy vai direto para produção
+*/
 
 import { CompletedChallenges } from "../Components/CompletedChallenges";
 import { Countdown } from "../Components/Countdown";
